@@ -17,7 +17,7 @@
 //
 //     if (foo) |value| {
 //         ...
-//     } else |err| switch(err) {
+//     } else |err| switch (err) {
 //         ...
 //     }
 //
@@ -40,7 +40,6 @@ pub fn main() void {
         } else |err| switch (err) {
             MyNumberError.TooBig => std.debug.print(">4. ", .{}),
             // Please add a match for TooSmall here and have it print: "<4. "
-            MyNumberError.TooSmall => std.debug.print("<4. ", .{}),
         }
     }
 

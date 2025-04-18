@@ -21,7 +21,7 @@
 const std = @import("std");
 
 pub fn main() void {
-    const foo = true;
+    const foo = 1;
 
     // Please fix this condition:
     if (foo) {
